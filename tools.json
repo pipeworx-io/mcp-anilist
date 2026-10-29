@@ -1,0 +1,52 @@
+[
+  {
+    "name": "search_anime",
+    "description": "Search for anime by title. Returns title, episode count, status, score, genres, and synopsis. Use get_anime with the ID for full details.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Anime title to search for, e.g. \"Attack on Titan\" or \"Cowboy Bebop\""
+        },
+        "limit": {
+          "type": "number",
+          "description": "Number of results to return (1–25, default 10)"
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "name": "get_anime",
+    "description": "Get full anime details by ID. Returns title, synopsis, episodes, duration, status, score, genres, studios, and season information.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "number",
+          "description": "AniList media ID (e.g. 21 for One Piece, 1 for Cowboy Bebop)"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  },
+  {
+    "name": "trending_anime",
+    "description": "Get currently trending anime ranked by popularity. Returns title, status, score, episode count, and genres. Use get_anime with the ID for full details.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "limit": {
+          "type": "number",
+          "description": "Number of results to return (1–25, default 10)"
+        }
+      },
+      "required": []
+    }
+  }
+]
