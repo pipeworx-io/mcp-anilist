@@ -1,6 +1,6 @@
 [
   {
-    "name": "search_anime",
+    "name": "anilist_search_anime",
     "description": "Search for anime by title. Returns title, episode count, status, score, genres, and synopsis. Use get_anime with the ID for full details.",
     "inputSchema": {
       "type": "object",
@@ -20,7 +20,7 @@
     }
   },
   {
-    "name": "get_anime",
+    "name": "anilist_get_anime",
     "description": "Get full anime details by ID. Returns title, synopsis, episodes, duration, status, score, genres, studios, and season information.",
     "inputSchema": {
       "type": "object",

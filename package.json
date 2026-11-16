@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-anilist",
-  "version": "0.2.1",
-  "description": "AniList MCP — wraps AniList GraphQL API (free, no auth)",
+  "version": "0.2.2",
+  "description": "Unofficial AniList MCP — wraps AniList GraphQL API (free, no auth)",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "anilist",
     "gatewaySlug": "anilist",
-    "sourceHash": "v1-438625d831f6bf7e36a78d53386548b01327834889f265dc16d98ab68e456644",
-    "sourceCommit": "aef970216f5309cdd22a27ddfc275e472aaadac1"
+    "sourceHash": "v1-616ce47573f250618e7d83db47a6e90fdc4062e8994905488b7fe00a8ec32d61",
+    "sourceCommit": "874331b0c46b151f9264bd14840631427a7721c1"
   }
 }

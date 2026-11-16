@@ -1,15 +1,15 @@
 # mcp-anilist
 
-AniList MCP — wraps AniList GraphQL API (free, no auth)
+Unofficial AniList MCP — wraps AniList GraphQL API (free, no auth)
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1861+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 2006+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `search_anime` | Search for anime by title. Returns title, episode count, status, score, genres, and synopsis. Use get_anime with the ID for full details. |
-| `get_anime` | Get full anime details by ID. Returns title, synopsis, episodes, duration, status, score, genres, studios, and season information. |
+| `anilist_search_anime` | Search for anime by title. Returns title, episode count, status, score, genres, and synopsis. Use get_anime with the ID for full details. |
+| `anilist_get_anime` | Get full anime details by ID. Returns title, synopsis, episodes, duration, status, score, genres, studios, and season information. |
 | `trending_anime` | Get currently trending anime ranked by popularity. Returns title, status, score, episode count, and genres. Use get_anime with the ID for full details. |
 
 ## Quick Start
@@ -56,7 +56,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1861+ data sources. The
+Both URLs reach the same gateway and the same 2006+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
